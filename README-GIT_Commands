@@ -1,16 +1,3 @@
-HTML Best Practices
-
-    - https://www.freecodecamp.org/news/html-best-practices/
-    - https://www.webfx.com/blog/web-design/20-html-best-practices-you-should-follow/
-    - https://blog.tbhcreative.com/10-best-practices-in-html/
-
-CSS Best Practices
-
-    - https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing
-    - https://webdesign.tutsplus.com/30-css-best-practices-for-beginners--net-6741t
-
-
-
 **Git Commands**
 
 **Set up Git repository and branch configuration**:
@@ -24,7 +11,6 @@ CSS Best Practices
 3. `git push -u origin main`: This command pushes the changes from your local "main" branch to the "main" branch of the remote repository "origin." The `-u` flag, as explained in a previous response, sets up a tracking relationship between your local "main" branch and the remote "main" branch. This means that in the future, when you run `git push` or `git pull` without specifying the remote and branch, Git will automatically use "origin" and "main."
 
 In summary, these commands configure your local Git repository to work with a remote repository on GitHub, rename your local branch to "main," and push the changes to the remote "main" branch while setting up tracking for further interactions.
-
 
 **To pull changes from the remote repository and then push your own changes in Git, you can use the following commands**:
 
@@ -53,7 +39,6 @@ In summary, these commands configure your local Git repository to work with a re
 
 Remember to replace "main" with the appropriate branch name if you're working on a different branch. These commands assume that you are working on the "main" branch locally and pushing to the "main" branch of the remote "origin." If you're working on a different branch, replace "main" with the name of your branch.
 
-
 **Certainly! To create a new branch and pull the latest code from the main branch, you can use the following Git commands**:
 
 1. **Create a new branch**:
@@ -81,7 +66,6 @@ Remember to replace "main" with the appropriate branch name if you're working on
    - The third command switches back to your new branch, where you can continue working on your changes.
 
 This sequence of commands allows you to create a new branch, switch to it, and ensure that your new branch is up to date with the latest changes from the main branch before you start working on your own changes.
-
 
 **Certainly! There are many Git commands and concepts that are important to know when working with Git. Here are some additional Git commands and concepts that are useful for everyday Git workflows**:
 
