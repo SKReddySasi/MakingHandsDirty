@@ -1,5 +1,46 @@
 /* Please check the README file for links to CSS Best Practices */
-
+body {
+  font-family: "ProximaNova";
+  color: #3a3a3a;
+}
 .practice {
-    color: red;
+  color: red;
+}
+.overall {
+  display: flex;
+  margin: 5% 17%;
+  /* flex-direction: row; */
+}
+.AkshayImg {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+.rightSide {
+  padding: 0px 40px;
+}
+.about {
+  font-size: 50px;
+  font-weight: 100;
+  color: #3a3a3a;
+  margin: 10px 0px;
+}
+.aboutContent {
+  color: #838383;
+  line-height: 30px;
+  font-size: 22px;
+}
+.numbersDiv {
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 17%;
+}
+.digit {
+  font-size: 32px;
+  color: #009ca8;
+  text-align: center;
+}
+.digitText {
+  text-align: center;
+  font-size: 20px;
 }
