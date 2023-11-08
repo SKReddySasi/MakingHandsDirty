@@ -73,5 +73,24 @@
         <p class="digitText">projects completed</p>
       </div>
     </div>
+    <!-- Animations -->
+    <div>
+      <p class="settle animatedElement">
+        Help me find tranquility by placing your
+        <span style="color: red">cursor</span> on me
+        <span class="show" style="display: none"
+          >Thanks for your kind help &#x1f64f; </span
+        >
+      </p>
+    </div>
+    <script>
+      const element = document.querySelector(".animatedElement");
+
+      element.addEventListener("mouseenter", () => {
+        element.classList.add("animationStopped");
+        const showEl = document.querySelector(".show");
+        showEl.classList.add("show-Element");
+      });
+    </script>
   </body>
 </html>
