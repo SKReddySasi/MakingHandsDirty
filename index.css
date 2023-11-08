@@ -47,7 +47,8 @@ body {
 }
 .socialMediaIcons {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 15px 0px;
 }
 .socialIcons {
   width: 50px;
