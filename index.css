@@ -78,6 +78,17 @@ body {
   transform: translateX(0); /* Reset the element's position */
 }
 
+.goTop {
+  position: absolute;
+  bottom: 5rem;
+  right: 0;
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #009ca8;
+  border: 0px;
+  cursor: pointer;
+}
+
 @keyframes slide {
   0% {
     transform: translateX(0);

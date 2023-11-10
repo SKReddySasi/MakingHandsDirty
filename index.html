@@ -73,23 +73,74 @@
         <p class="digitText">projects completed</p>
       </div>
     </div>
-    <!-- Animations -->
-    <div>
-      <p class="settle animatedElement">
-        Help me find tranquility by placing your
-        <span style="color: red">cursor</span> on me
-        <span class="show" style="display: none"
-          >Thanks for your kind help &#x1f64f; </span
-        >
-      </p>
-    </div>
-    <script>
-      const element = document.querySelector(".animatedElement");
 
-      element.addEventListener("mouseenter", () => {
-        element.classList.add("animationStopped");
-        const showEl = document.querySelector(".show");
-        showEl.classList.add("show-Element");
+    <!-- overall div -->
+    <div class="overall">
+      <!-- left side -->
+      <div class="leftSide">
+        <img
+          class="AkshayImg"
+          src="https://akshaysaini.in/img/akshay.jpg"
+          alt="Akshay image"
+        />
+        <div class="socialMediaIcons">
+          <!-- <img class="socialIcons" src="./Images/LinkedIn.png" alt="Linkedin" />
+          <img class="socialIcons" src="./Images/Facebook.png" alt="Facebook" />
+          <img class="socialIcons" src="./Images/Youtube.png" alt="Youtube" />
+          <img class="socialIcons" src="Images/Gmail.png" alt="Gmail" /> -->
+          <i class="fa fa-youtube-play"></i>
+          <i class="fa fa-facebook-official"></i>
+          <i class="fa fa-linkedin-square"></i>
+          <i class="fa fa-envelope-o"></i>
+        </div>
+      </div>
+      <!-- Right side -->
+      <div class="rightSide">
+        <h3 class="about">About me.</h3>
+        <p class="aboutContent">
+          Hi I am Akshay Saini, a 26 year old Web developer, YouTuber, and a
+          Digital Marketer living in Hyderabad, India. I am a Computer Science
+          Engineer, currently working with awesome folks at Uber.
+        </p>
+        <p class="aboutContent">
+          Have a look at my YouTube Channel, skills or just connect with me on
+          LinkedIn. I am always excited to do business with like minded people,
+          lets discuss over coffee.
+        </p>
+      </div>
+    </div>
+
+    <!-- Numbers Part -->
+    <div class="numbersDiv">
+      <div>
+        <p class="digit">160000</p>
+        <p class="digitText">lines of code</p>
+      </div>
+      <div>
+        <p class="digit">328742340000</p>
+        <p class="digitText">pixels rendered</p>
+      </div>
+      <div>
+        <p class="digit">1512</p>
+        <p class="digitText">cups of coffee drunk</p>
+      </div>
+      <div>
+        <p class="digit">23</p>
+        <p class="digitText">projects completed</p>
+      </div>
+    </div>
+    <div style="position: relative">
+      <button class="goTop">Go To Top</button>
+    </div>
+
+    <script>
+      // document.addEventListener("DOMContentLoaded", function () {
+
+      // });
+      const goTop = document.querySelector(".goTop");
+
+      goTop.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior:"smooth" });
       });
     </script>
   </body>
